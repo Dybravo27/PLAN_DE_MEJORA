@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+.contenedor{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #405D72;
+    box-shadow: 7px 13px 37px rgba(0, 12, 2, 0.5);
+    border-radius: 5px;
+}
+
+section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    background: #f7e7dc;
+    border-radius: 1px;
+    transition: all 0.2s ease-in;
+}
+
+section a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    background-color: #758694;
+    border: solid 1px #000;
+    border-radius: 5px;
+    color:#fff;
+}
+
+section:target p{
+    max-height: 120px;
+    padding: 10px;
+}
