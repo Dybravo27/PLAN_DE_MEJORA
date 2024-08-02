@@ -34,7 +34,8 @@
 }
 .acordeon__texto3:focus{
     background-color: var(--color1);
-    font-size: 20px;
+    transition: all 0.2s;
+    font-size: 25px;
 }
 
 .acordeon__contenido3{

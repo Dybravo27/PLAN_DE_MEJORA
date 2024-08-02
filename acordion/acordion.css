@@ -24,13 +24,6 @@
     position: relative;
     list-style: none;
 }
-.acordeon__texto::after{
-    content: '▼';
-    font-size: 20px;
-    color: #000 ;
-    position: absolute;
-    right: 10px;
-}
 
 .acordeon__contenido{
     padding: 10px;

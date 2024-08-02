@@ -1,0 +1,62 @@
+.grupo2{
+  width: 350px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: var(--colorB);
+  color: var(--blanco);
+  font-family: "Inter", sans-serif;
+  font-size: 25px;  
+}
+
+.grupo--botones3{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
+.grupo--botones2{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
+
+.grupo--botones4{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
+.grupo--botones5{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
+.grupo--botones6{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
+
+.grupo--botones7{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: 20px;
+  display:inline-block;
+  line-height: 10px;
+}
