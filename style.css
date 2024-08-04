@@ -10,6 +10,9 @@
 
 @import url(botones/boton1.css);
 @import url(botones/boton2.css);
+@import url(botones/boton3.css);
+@import url(botones/boton4.css);
+@import url(botones/boton5.css);
 
 *{
     margin: 0;

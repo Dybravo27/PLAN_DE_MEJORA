@@ -1,0 +1,31 @@
+.grupo4{
+    display: flex;
+    width: 500px;
+    height: 70px;
+    margin: 10px auto;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color:var(--colorC);
+    padding: 5px;
+    border: solid 10px var(--colorC);
+    box-shadow: 0 0 15px var(--negro);
+}
+  .botones__modificacion3{
+    background-color: var(--blanco);
+    border: solid 2px var(--colorA);
+    color: var(--colorC);
+    width: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.botones__modificacion3:active{
+    background-color: var(--colorA);
+    color: var(--colorD);
+    border: solid 2px var(--colorD);
+    box-shadow: 0 0 15px var(--negro);
+}
