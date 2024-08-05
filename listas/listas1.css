@@ -1,0 +1,21 @@
+.contenedor_grupo{
+    margin: 30px auto;
+    list-style-type: none;
+}
+.listas{
+    display: block;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 auto;
+    border: solid 2px var(--negro);
+    cursor: pointer;
+}
+.listas:first-of-type{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.listas:last-of-type{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
