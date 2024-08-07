@@ -7,13 +7,9 @@
 @import url(variables.css);
 @import url(acordion/acordion.css);
 @import url(botones/boton.css);
-@import url(tarjetas/tarjeta1.css);
+@import url(tarjetas/tarjeta.css);
+@import url(listas/lista.css);
 
-@import url(listas/listas1.css);
-@import url(listas/listas2.css);
-@import url(listas/listas3.css);
-@import url(listas/listas4.css);
-@import url(listas/listas5.css);
 *{
     margin: 0;
     padding: 0;
