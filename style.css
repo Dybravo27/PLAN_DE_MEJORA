@@ -6,22 +6,8 @@
 
 @import url(variables.css);
 @import url(acordion/acordion.css);
-@import url(acordion/acordion2.css);
-@import url(acordion/acordion3.css);
-@import url(acordion/acordion4.css);
-@import url(acordion/acordion5.css);
-
-@import url(botones/boton1.css);
-@import url(botones/boton2.css);
-@import url(botones/boton3.css);
-@import url(botones/boton4.css);
-@import url(botones/boton5.css);
-
+@import url(botones/boton.css);
 @import url(tarjetas/tarjeta1.css);
-@import url(tarjetas/tarjeta2.css);
-@import url(tarjetas/tarjeta3.css);
-@import url(tarjetas/tarjeta4.css);
-@import url(tarjetas/tarjeta5.css);
 
 @import url(listas/listas1.css);
 @import url(listas/listas2.css);
@@ -34,3 +20,12 @@
     box-sizing: border-box;
 }
 
+
+h1{
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    font-size: 40px;
+}

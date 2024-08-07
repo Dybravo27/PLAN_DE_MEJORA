@@ -1,8 +1,8 @@
-.contenedor_grupo{
+.grupo__lista{
     margin: 30px auto;
     list-style-type: none;
 }
-.listas{
+.elemento__lista{
     display: block;
     width: 340px;
     height: 50px;
@@ -11,11 +11,75 @@
     border: solid 2px var(--negro);
     cursor: pointer;
 }
-.listas:first-of-type{
+.elemento__lista:first-of-type{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.listas:last-of-type{
+.elemento__lista:last-of-type{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+/* ---------------------------------------------- */
+.elemento__lista--modificacion1:hover{
+    background-color: var(--colorK);
+    color: var(--colorJ);
+    font-size: 15px;
+    font-family: "Recursive", sans-serif;
+    border-radius: 8px;
+    margin: 5px auto;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px var(--negro);
+}
+/* ---------------------------------------------- */
+.elemento__lista--modificacion2{
+    background-color: var(--colorL);
+    color: var(--colorJ);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+}
+.elemento__lista--modificacion2:hover{
+    background-color: var(--colorJ);
+    color: var(--colorL);
+    box-shadow: 0 4px 8px var(--colorJ),0 0 15px var(--colorK) ;
+    border-color: var(--colorL);
+    width: 350px;
+    height: 55px;
+}
+/* ---------------------------------------------- */
+.elemento__lista--modificacion3{    
+    background-color: var(--colorJ);
+    color: var(--colorL);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+}
+.elemento__lista--modificacion3:hover{
+    background-color: var(--colorK);
+    box-shadow: 0 8px 16px var(--colorK);
+    width: 350px;
+    height: 55px;   
+}
+.elemento__lista--modificacion3:active{
+    background-color: var(--colorL);
+    box-shadow: 0 4px 8px var(--colorL);
+    color: var(--colorJ);
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    transition: all 0.2s;
+}
+/* ---------------------------------------------- */
+.elemento__lista--modificacion4{
+    background-color: var(--colorJ);
+    color: var(--colorL);
+    font-size: 18px;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+}
+.elemento__lista--modificacion4:hover{
+    background: linear-gradient(to bottom right,var(--colorK), var(--colorJ),var(--colorL));
+    color: var(--colorL);
+    font-size: 20px;
+    border: 4px solid var(--colorL);
+    transition: all 0.3s;  
 }
