@@ -1,7 +1,4 @@
-.contenedor__tarjeta{
-    margin: 0 auto;
-}
-.tarjeta__principal{
+.tarjeta{
     display: inline-block;
     background: var(--blanco);
     width: 330px;
@@ -10,7 +7,7 @@
     box-shadow: 0 4px 8px var(--negro);
     padding: 30px;
 }
-.imagen__auto{
+.tarjeta__imagen{
     display: block;
     width: 100%;
     height: 140px;
@@ -18,19 +15,19 @@
     margin-top: 10px;
     object-fit: cover;
 }
-.titulo{
+.tarjeta__titulo{
     font-family: "Recursive", sans-serif;
     font-size: 25px;
     text-align: center;
 }
-.texto{
+.tarjeta__texto{
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 15px;
     text-align: justify;
     margin: 10px;
 }
-.boton{
+.tarjeta__boton{
     display: block;
     color: var(--negro);
     width: 130px;
@@ -47,108 +44,108 @@
     font-size: 15px;
 }
 /* ---------------------------------------------- */
-.tarjeta__principal--modificacion1{
-    background-color: var(--colorE);
+.tarjeta--fondo_azul_oscuro-sombra_celeste{
+    background-color: var(--color_azul_oscuro);
     box-shadow: none;
 }
-.imagen__auto--modificacion1{
-    filter: drop-shadow(0 0 10px var(--colorI));
+.tarjeta__imagen--sombra_rojo_calido{
+    filter: drop-shadow(0 0 10px var(--color_rojo_calido));
 }
-.titulo--modificacion1{
-    color: var(--colorH);
+.tarjeta__titulo--color_amarillo_mostaza{
+    color: var(--color_amarillo_mostaza);
 }
-.texto--modificacion1{
-    color: var(--colorG);
+.tarjeta__texto--color_azul_celeste{
+    color: var(--color_azul_celeste);
 }
-.boton--modificacion1{
+.tarjeta__boton--fondo_azul_celeste{
     color: var(--blanco);
-    background-color: var(--colorG);
+    background-color: var(--color_azul_celeste);
 }
-.tarjeta__principal--modificacion1:hover{
-    background-color: var(--colorE);
+.tarjeta--fondo_azul_oscuro-sombra_celeste:hover{
+    background-color: var(--color_azul_oscuro);
     box-shadow: 0 4px 8px var(--negro);
-    filter: drop-shadow(0 0 10px var(--colorG));
+    filter: drop-shadow(0 0 10px var(--color_azul_celeste));
 }
 /* ---------------------------------------------- */
-.titulo--modificacion2{
-    color: var(--colorE);
+.tarjeta__titulo--color_azul_oscuro{
+    color: var(--color_azul_oscuro);
 }
-.texto--modificacion2{
-    color: var(--colorF);
+.tarjeta__texto--color_azul_marinos{
+    color: var(--color_azul_marino);
 }
-.boton--modificacion2{
-    background-color: var(--colorG);
+.tarjeta__boton--fondo_amarillo_mostaza{
+    background-color: var(--color_azul_celeste);
     color: var(--blanco);
 }
-.tarjeta__principal--modificacion2:hover{
-    background: linear-gradient(to bottom, var(--colorG),var(--colorH));
+.tarjeta--fondo_azul_celeste-amarillo_mostaza:hover{
+    background: linear-gradient(to bottom, var(--color_azul_celeste),var(--color_amarillo_mostaza));
     box-shadow: 0 12px 24px var(--negro);
-    border: solid 2px var(--colorI);
+    border: solid 2px var(--color_rojo_calido);
     transition: all 0.5s ease;
 }
-.boton--modificacion2:hover{
-    background-color: var(--colorH);
+.tarjeta__boton--fondo_amarillo_mostaza:hover{
+    background-color: var(--color_amarillo_mostaza);
     color: var(--negro);
 }
 /* ---------------------------------------------- */
-.tarjeta__principal--modificacion3{
-    background-color: var(--colorE);
-    box-shadow: 0 4px 8px var(--colorF);
+.tarjeta--fondo_azul_celeste{
+    background-color: var(--color_azul_oscuro);
+    box-shadow: 0 4px 8px var(--color_azul_marino);
     transition: all 0.3s;
 }
-.titulo--modificacion3{
-    color: var(--colorH);
+.tarjeta__titulo--color_azul_marino{
+    color: var(--color_amarillo_mostaza);
 }
-.texto--modificacion3{
-    color: var(--colorG);
+.tarjeta__texto--azul_marino{
+    color: var(--color_azul_celeste);
 }
-.boton--modificacion3{
-    background-color: var(--colorG);
-    color: var(--colorF);
+.tarjeta__boton--fondo_azul_marino{
+    background-color: var(--color_azul_celeste);
+    color: var(--color_azul_marino);
     border: none;
     border-radius: 4px;
 }
-.tarjeta__principal--modificacion3:hover{
-    background-color: var(--colorG);
-    box-shadow: 0 4px 8px var(--colorF);
+.tarjeta--fondo_azul_celeste:hover{
+    background-color: var(--color_azul_celeste);
+    box-shadow: 0 4px 8px var(--color_azul_marino);
 }
-.tarjeta__principal--modificacion3:hover .titulo--modificacion3{
-    color: var(--colorF)
+.tarjeta--fondo_azul_celeste:hover .tarjeta__titulo--color_azul_marino{
+    color: var(--color_azul_marino)
 }
-.tarjeta__principal--modificacion3:hover .texto--modificacion3{
-    color: var(--colorF);
+.tarjeta--fondo_azul_celeste:hover .tarjeta__texto--azul_marino{
+    color: var(--color_azul_marino);
 }
-.tarjeta__principal--modificacion3:hover .boton--modificacion3{
-    background-color: var(--colorF);
-    color: var(--colorG);
+.tarjeta--fondo_azul_celeste:hover .tarjeta__boton--fondo_azul_marino{
+    background-color: var(--color_azul_marino);
+    color: var(--color_azul_celeste);
 }
-.tarjeta__principal--modificacion3:hover .imagen__auto--modificacion3{
-    filter: drop-shadow(0 0 10px var(--colorF));
+.tarjeta--fondo_azul_celeste:hover .tarjeta__imagen--sombra_azul_marino{
+    filter: drop-shadow(0 0 10px var(--color_azul_marino));
 }
 /* ---------------------------------------------- */
-.tarjeta__principal--modificacion4{
-    background-color: var(--colorE);
-    box-shadow: 0 4px 8px var(--colorF);
+.tarjeta--fondo_azul_marino-sombra_adicional{
+    background-color: var(--color_azul_oscuro);
+    box-shadow: 0 4px 8px var(--color_azul_marino);
     transition: all 0.3s;
 }
-.titulo--modificacion4{
-    color: var(--colorH);
+.tarjeta__titulo--amarillo_mostaza{
+    color: var(--color_amarillo_mostaza);
 }
-.texto--modificacion4{
-    color: var(--colorG);
+.tarjeta__texto--azul_celeste{
+    color: var(--color_azul_celeste);
 }
-.boton--modificacion4{
-    background-color: var(--colorG);
-    color: var(--colorF);
+.tarjeta__boton--fondo_celeste{
+    background-color: var(--color_azul_celeste);
+    color: var(--color_azul_marino);
     border: none;
     border-radius: 4px;
 }
-.tarjeta__principal--modificacion4:hover{
+.tarjeta--fondo_azul_marino-sombra_adicional:hover{
     border: 0;
-    background-color: var(--colorF);
+    background-color: var(--color_azul_marino);
     color: var(--colorD);
     border-radius: 10px;
     padding: 16px 30px;
     transition: 0.5s;
-    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--colorF);
+    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--color_azul_marino);
 }

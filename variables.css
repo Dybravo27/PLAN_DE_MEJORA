@@ -1,20 +1,20 @@
 :root{
   --negro:#000;
   --blanco:#fff;
-  --color1:#ff8f3f;
-  --color2:#f2f2f2;
-  --color3:#e4d5d5;
-  --color4:#F5F5DC;
-  --colorA:#003C43;
-  --colorB:#135D66;
-  --colorC:#77B0AA;
-  --colorD:#E3FEF7;
+  --color_naranja:#ff8f3f;
+  --color_gris_claro:#f2f2f2;
+  --color_rosa_palido:#e4d5d5;
+  --color_amarillo_palido:#F5F5DC;
+  --color_verde_oscuro:#003C43;
+  --color_verde_marino:#135D66;
+  --color_verde_agua:#77B0AA;
+  --color_verde_menta:#E3FEF7;
 
-  --colorE:#10133a;
-  --colorF:#010b8b;
-  --colorG:#0be7fb;
-  --colorH:#fecc50;
-  --colorI:#ff6d69;
+  --color_azul_oscuro:#10133a;
+  --color_azul_marino:#010b8b;
+  --color_azul_celeste:#0be7fb;
+  --color_amarillo_mostaza:#fecc50;
+  --color_rojo_calido:#ff6d69;
   --colorJ:#090967;
   --colorK:#7079d3;
   --colorL:#b1b3c9;

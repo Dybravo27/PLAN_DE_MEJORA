@@ -2,7 +2,7 @@
     width:400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--color1);
+    background-color: var(--color_naranja);
     border-radius: 5px;
 }
 
@@ -10,7 +10,7 @@
     width: 350px;
     padding: 10px;
     font-family: "Roboto", sans-serif;
-    background-color: var(--color2);
+    background-color: var(--color_gris_claro);
     border-radius: 5px;
     margin: 10px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@
     cursor: pointer;
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--color3);
+    background-color: var(--color_rosa_palido);
     margin: 5px 0;
     position: relative;
     list-style: none;
@@ -29,19 +29,19 @@
     padding: 10px;
     border-radius: 2px;
     font-family: "Roboto", sans-serif;
-    background-color: var(--color4);
+    background-color: var(--color_amarillo_palido);
 }
 /* ---------------------------------------------- */
-.contenedor--fondo_amarillo-sombra_negra:hover{
-    background-color: var(--color4);
+.contenedor--fondo_amarillo_palido-sombra_negra:hover{
+    background-color: var(--color_amarillo_palido);
     box-shadow: 0px 0px 10px 0px var(--negro);
     transition: all 0.9s;
 }
 .acordion__titulo--titulo_naranja{
-    color: var(--color1);
+    color: var(--color_naranja);
 }
 .acordion__contenido--contenido_naranja{
-    color: var(--color1);
+    color: var(--color_naranja);
 }
 .acordion__titulo--titulo_naranja::before{
     content: '▼';
@@ -60,7 +60,7 @@
     transition: 0.3s;
 }
 .acordion__titulo--fondo_naranja:focus{
-    background-color: var(--color1);
+    background-color: var(--color_naranja);
     transition: all 0.2s;
     font-size: 25px;
 }
@@ -73,7 +73,7 @@
     right: 10px;
 }
 .acordion__contenido--fondo_naranja{
-    background-color: var(--color1);
+    background-color: var(--color_naranja);
 }
 .acordion__titulo--centrado_negrita:hover{
     text-align: center;
@@ -81,16 +81,16 @@
 }
 /* ---------------------------------------------- */
 .contenedor--fondo_rosa_palido-redondeado:hover{
-    background-color: var(--color3);
+    background-color: var(--color_rosa_palido);
     transition: all 0.5s;
     font-size: 20px;
     border-radius: 50px;
 }
 .acordion--fondo_amarillo_palido{
-    background-color: var(--color4);
+    background-color: var(--color_amarillo_palido);
 }
 .acordion__contenido--fondo_gris_claro{
-    background-color: var(--color2);
+    background-color: var(--color_gris_claro);
 }
 .acordion__titulo--fondo_naranja-redondeado::before{
     content: '▼';
@@ -100,7 +100,7 @@
     right: 10px;
 }
 .acordion__titulo--fondo_naranja-redondeado:hover{
-    background-color: var(--color1);
+    background-color: var(--color_naranja);
     border-radius: 30px;
     transition: all 1s;
 }
