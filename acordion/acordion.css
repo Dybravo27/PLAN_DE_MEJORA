@@ -6,7 +6,7 @@
     border-radius: 5px;
 }
 
-.acordion__item{
+.acordion{
     width: 350px;
     padding: 10px;
     font-family: "Roboto", sans-serif;
@@ -15,7 +15,7 @@
     margin: 10px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.acordion__texto{
+.acordion__titulo{
     cursor: pointer;
     padding: 10px;
     border-radius: 5px;
@@ -32,13 +32,18 @@
     background-color: var(--color4);
 }
 /* ---------------------------------------------- */
-.contenedor--modificacion1:hover{
+.contenedor--fondo_amarillo-sombra_negra:hover{
     background-color: var(--color4);
-    color: var(--color1);
-    transition: all 0.9s ;
     box-shadow: 0px 0px 10px 0px var(--negro);
+    transition: all 0.9s;
 }
-.acordion__texto--modificacion1::before{
+.acordion__titulo--titulo_naranja{
+    color: var(--color1);
+}
+.acordion__contenido--contenido_naranja{
+    color: var(--color1);
+}
+.acordion__titulo--titulo_naranja::before{
     content: '▼';
     font-size: 20px;
     color: var(--negro) ;
@@ -46,7 +51,7 @@
     right: 10px; 
 }
 /* ---------------------------------------------- */
-.acordion__texto--modificacion2::before{
+.acordion__titulo--fondo_naranja::before{
     content: '▼';
     font-size: 20px;
     color: var(--negro) ;
@@ -54,38 +59,47 @@
     right: 10px;
     transition: 0.3s;
 }
-.acordion__texto--modificacion2:focus{
+.acordion__titulo--fondo_naranja:focus{
     background-color: var(--color1);
     transition: all 0.2s;
     font-size: 25px;
 }
 /* ---------------------------------------------- */
-.acordion__texto--modificacion3::before{
+.acordion__titulo--centrado_negrita::before{
     content: '▼';
     font-size: 20px;
-    color: var(--negro) ;
+    color: var(--negro);
     position: absolute;
     right: 10px;
 }
-.acordion__texto--modificacion3:hover{
+.acordion__contenido--fondo_naranja{
+    background-color: var(--color1);
+}
+.acordion__titulo--centrado_negrita:hover{
     text-align: center;
     font-weight: bold;
 }
 /* ---------------------------------------------- */
-.contenedor--modificacion4:hover{
+.contenedor--fondo_rosa_palido-redondeado:hover{
     background-color: var(--color3);
     transition: all 0.5s;
     font-size: 20px;
     border-radius: 50px;
 }
-.acordion__texto--modificacion4::before{
+.acordion--fondo_amarillo_palido{
+    background-color: var(--color4);
+}
+.acordion__contenido--fondo_gris_claro{
+    background-color: var(--color2);
+}
+.acordion__titulo--fondo_naranja-redondeado::before{
     content: '▼';
     font-size: 20px;
-    color: var(--negro) ;
+    color: var(--negro);
     position: absolute;
     right: 10px;
 }
-.acordion__texto--modificacion4:hover{
+.acordion__titulo--fondo_naranja-redondeado:hover{
     background-color: var(--color1);
     border-radius: 30px;
     transition: all 1s;

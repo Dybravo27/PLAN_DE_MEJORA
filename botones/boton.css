@@ -1,11 +1,11 @@
-.grupo__botones{
+.grupo{
   display: flex;
   width: 400px;
   height: 50px;
-  margin: 10px auto;
+  margin: 30px auto;
   justify-content: space-around;
 }
-.botones{
+.grupo__botones{
   background-color: var(--blanco);
   border: solid 1px var(--negro);
   width: 100px;
@@ -13,11 +13,11 @@
   font-size: 15px;  
 }
 /* ---------------------------------------------- */
-.botones--modificacion1{
+.grupo__botones--fondo_verde_oscuro{
   background-color: var(--blanco);
   border: solid 1px var(--colorB);
 }
-.botones--modificacion1:hover{
+.grupo__botones--fondo_verde_oscuro:hover{
   background-color: var(--colorA);
   color: var(--colorD);
   transition: all 0.4s;
@@ -25,10 +25,7 @@
   border: solid 1px var(--blanco);
 }
 /* ---------------------------------------------- */
-.grupo__botones--modificacion2{
-  margin: 30px auto;
-}
-.botones--modificacion2{
+.grupo__botones--verde_menta{
   background-color: var(--colorA);
   color: var(--colorD);
   border: solid 2px var(--blanco);
@@ -36,7 +33,7 @@
   border-radius: 20px;
   transition: all 0.3s ;
 }
-.botones--modificacion2:hover{
+.grupo__botones--verde_menta:hover{
   background-color: var(--colorC);
   color: var(--colorA);
   border: solid 2px var(--colorA);
@@ -44,7 +41,7 @@
   box-shadow: 0 4px 8px var(--negro);
 }
 /* ---------------------------------------------- */
-.grupo__botones--modificacion3{
+.grupo--fondo_verde_menta-sombra_negra{
   width: 500px;
   height: 70px;
   border-radius: 20px;
@@ -53,7 +50,7 @@
   border: solid 10px var(--colorC);
   box-shadow: 0 0 15px var(--negro);
 }
-.botones--modificacion3{
+.grupo__botones--verde_oscuro-sombra_negra{
   border: solid 2px var(--colorA);
   color: var(--colorC);
   width: 80px;
@@ -62,14 +59,14 @@
   transition: all 0.2s;
   cursor: pointer;
 }
-.botones--modificacion3:active{
+.grupo__botones--verde_oscuro-sombra_negra:active{
   background-color: var(--colorA);
   color: var(--colorD);
   border: solid 2px var(--colorD);
   box-shadow: 0 0 15px var(--negro);
 }
 /* ---------------------------------------------- */
-.grupo__botones--modificacion4{
+.grupo--fondo_verde_claro{
   width: 600px;
   height: 80px;
   margin: 40px auto;
@@ -78,7 +75,7 @@
   padding: 10px;
   box-shadow: 0 4px 8px var(--negro);
 }
-.botones--modificacion4{
+.grupo__botones--verde_marino-sombra_adicional{
   border: solid 3px var(--colorB);
   width: 80px;
   color: var(--colorC);
@@ -86,13 +83,13 @@
   padding: 10px;
   cursor: pointer;
 }
-.botones--modificacion4:hover{
+.grupo__botones--verde_marino-sombra_adicional:hover{
   border: 0;
-    background: var(--colorB);
-    color: var(--colorD);
-    border-radius: 10px;
-    padding: 16px 30px;
-    transition: 0.5s;
-    cursor: pointer;
-    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--colorB);
+  background: var(--colorB);
+  color: var(--colorD);
+  border-radius: 10px;
+  padding: 16px 30px;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--colorB);
 }
