@@ -13,11 +13,11 @@
   font-size: 15px;  
 }
 /* ---------------------------------------------- */
-.grupo__botones--fondo_verde_oscuro{
+.grupo__botones--fondo_verde_oscuro-borde_verde_marino{
   background-color: var(--blanco);
-  border: solid 1px var(--color_verde_marino);
+  border: solid 2px var(--color_verde_marino);
 }
-.grupo__botones--fondo_verde_oscuro:hover{
+.grupo__botones--fondo_verde_oscuro-borde_verde_marino:hover{
   background-color: var(--color_verde_oscuro);
   color: var(--color_verde_menta);
   transition: all 0.4s;
@@ -25,7 +25,7 @@
   border: solid 1px var(--blanco);
 }
 /* ---------------------------------------------- */
-.grupo__botones--verde_menta{
+.grupo__botones--texto_verde_menta-fondo_verde_oscuro-borde_blanco{
   background-color: var(--color_verde_oscuro);
   color: var(--color_verde_menta);
   border: solid 2px var(--blanco);
@@ -33,7 +33,7 @@
   border-radius: 20px;
   transition: all 0.3s ;
 }
-.grupo__botones--verde_menta:hover{
+.grupo__botones--fondo_verde_agua-texto_verde_oscuro-borde_verde_oscuro-sombra_negro:hover{
   background-color: var(--color_verde_agua);
   color: var(--color_verde_oscuro);
   border: solid 2px var(--color_verde_oscuro);

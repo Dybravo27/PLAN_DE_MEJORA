@@ -43,109 +43,108 @@
     font-family: "Archivo", sans-serif;
     font-size: 15px;
 }
-/* ---------------------------------------------- */
+/* Modificaciones de la primera tarjeta */
 .tarjeta--fondo_azul_oscuro-sombra_celeste{
-    background-color: var(--color_azul_oscuro);
+    background-color: var(--azul_oscuro);
     box-shadow: none;
 }
 .tarjeta__imagen--sombra_rojo_calido{
-    filter: drop-shadow(0 0 10px var(--color_rojo_calido));
+    filter: drop-shadow(0 0 10px var(--rojo_calido));
 }
-.tarjeta__titulo--color_amarillo_mostaza{
-    color: var(--color_amarillo_mostaza);
+.tarjeta__titulo--amarillo_mostaza{
+    color: var(--amarillo_mostaza);
 }
-.tarjeta__texto--color_azul_celeste{
-    color: var(--color_azul_celeste);
+.tarjeta__texto--azul_celeste{
+    color: var(--azul_celeste);
 }
 .tarjeta__boton--fondo_azul_celeste{
     color: var(--blanco);
-    background-color: var(--color_azul_celeste);
+    background-color: var(--azul_celeste);
 }
 .tarjeta--fondo_azul_oscuro-sombra_celeste:hover{
-    background-color: var(--color_azul_oscuro);
+    background-color: var(--azul_oscuro);
     box-shadow: 0 4px 8px var(--negro);
-    filter: drop-shadow(0 0 10px var(--color_azul_celeste));
+    filter: drop-shadow(0 0 10px var(--azul_celeste));
 }
-/* ---------------------------------------------- */
+/* Modificaciones de la segunda tarjeta */
 .tarjeta__titulo--color_azul_oscuro{
-    color: var(--color_azul_oscuro);
+    color: var(--azul_oscuro);
 }
 .tarjeta__texto--color_azul_marinos{
-    color: var(--color_azul_marino);
+    color: var(--azul_marino);
 }
 .tarjeta__boton--fondo_amarillo_mostaza{
-    background-color: var(--color_azul_celeste);
+    background-color: var(--azul_celeste);
     color: var(--blanco);
 }
 .tarjeta--fondo_azul_celeste-amarillo_mostaza:hover{
-    background: linear-gradient(to bottom, var(--color_azul_celeste),var(--color_amarillo_mostaza));
+    background: linear-gradient(to bottom, var(--azul_celeste),var(--amarillo_mostaza));
     box-shadow: 0 12px 24px var(--negro);
-    border: solid 2px var(--color_rojo_calido);
+    border: solid 2px var(--rojo_calido);
     transition: all 0.5s ease;
 }
 .tarjeta__boton--fondo_amarillo_mostaza:hover{
-    background-color: var(--color_amarillo_mostaza);
+    background-color: var(--amarillo_mostaza);
     color: var(--negro);
 }
-/* ---------------------------------------------- */
+/* Modificaciones de la tercera tarjeta */
 .tarjeta--fondo_azul_celeste{
-    background-color: var(--color_azul_oscuro);
-    box-shadow: 0 4px 8px var(--color_azul_marino);
+    background-color: var(--azul_oscuro);
+    box-shadow: 0 4px 8px var(--azul_marino);
     transition: all 0.3s;
 }
 .tarjeta__titulo--color_azul_marino{
-    color: var(--color_amarillo_mostaza);
+    color: var(--amarillo_mostaza);
 }
 .tarjeta__texto--azul_marino{
-    color: var(--color_azul_celeste);
+    color: var(--azul_celeste);
 }
 .tarjeta__boton--fondo_azul_marino{
-    background-color: var(--color_azul_celeste);
-    color: var(--color_azul_marino);
+    background-color: var(--azul_celeste);
+    color: var(--azul_marino);
     border: none;
     border-radius: 4px;
 }
 .tarjeta--fondo_azul_celeste:hover{
-    background-color: var(--color_azul_celeste);
-    box-shadow: 0 4px 8px var(--color_azul_marino);
+    background-color: var(--azul_celeste);
+    box-shadow: 0 4px 8px var(--azul_marino);
 }
 .tarjeta--fondo_azul_celeste:hover .tarjeta__titulo--color_azul_marino{
-    color: var(--color_azul_marino)
+    color: var(--azul_marino)
 }
 .tarjeta--fondo_azul_celeste:hover .tarjeta__texto--azul_marino{
-    color: var(--color_azul_marino);
+    color: var(--azul_marino);
 }
 .tarjeta--fondo_azul_celeste:hover .tarjeta__boton--fondo_azul_marino{
-    background-color: var(--color_azul_marino);
-    color: var(--color_azul_celeste);
+    background-color: var(--azul_marino);
+    color: var(--azul_celeste);
 }
 .tarjeta--fondo_azul_celeste:hover .tarjeta__imagen--sombra_azul_marino{
-    filter: drop-shadow(0 0 10px var(--color_azul_marino));
+    filter: drop-shadow(0 0 10px var(--azul_marino));
 }
-/* ---------------------------------------------- */
+/* Modificaciones de la cuarta tarjeta */
 .tarjeta--fondo_azul_marino-sombra_adicional{
-    background-color: var(--color_azul_oscuro);
-    box-shadow: 0 4px 8px var(--color_azul_marino);
+    background-color: var(--azul_oscuro);
+    box-shadow: 0 4px 8px var(--azul_marino);
     transition: all 0.3s;
 }
 .tarjeta__titulo--amarillo_mostaza{
-    color: var(--color_amarillo_mostaza);
+    color: var(--amarillo_mostaza);
 }
 .tarjeta__texto--azul_celeste{
-    color: var(--color_azul_celeste);
+    color: var(--azul_celeste);
 }
 .tarjeta__boton--fondo_celeste{
-    background-color: var(--color_azul_celeste);
-    color: var(--color_azul_marino);
+    background-color: var(--azul_celeste);
+    color: var(--azul_marino);
     border: none;
     border-radius: 4px;
 }
 .tarjeta--fondo_azul_marino-sombra_adicional:hover{
     border: 0;
-    background-color: var(--color_azul_marino);
-    color: var(--colorD);
+    background-color: var(--azul_marino);
     border-radius: 10px;
     padding: 16px 30px;
     transition: 0.5s;
-    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--color_azul_marino);
+    box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--azul_marino);
 }

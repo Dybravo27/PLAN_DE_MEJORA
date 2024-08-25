@@ -1,21 +1,24 @@
 :root{
   --negro:#000;
   --blanco:#fff;
-  --color_naranja:#ff8f3f;
-  --color_gris_claro:#f2f2f2;
-  --color_rosa_palido:#e4d5d5;
-  --color_amarillo_palido:#F5F5DC;
+  /* colores acordion */
+  --naranja:#ff8f3f;
+  --gris_claro:#f2f2f2;
+  --rosa_palido:#e4d5d5;
+  --amarillo_palido:#F5F5DC;
+  /* colores grupo botones */
   --color_verde_oscuro:#003C43;
   --color_verde_marino:#135D66;
   --color_verde_agua:#77B0AA;
   --color_verde_menta:#E3FEF7;
+  /* colores tarjetas */
+  --azul_oscuro:#10133a;
+  --azul_marino:#010b8b;
+  --azul_celeste:#0be7fb;
+  --amarillo_mostaza:#fecc50;
+  --rojo_calido:#ff6d69;
 
-  --color_azul_oscuro:#10133a;
-  --color_azul_marino:#010b8b;
-  --color_azul_celeste:#0be7fb;
-  --color_amarillo_mostaza:#fecc50;
-  --color_rojo_calido:#ff6d69;
-  --colorJ:#090967;
-  --colorK:#7079d3;
-  --colorL:#b1b3c9;
+  --azul_noche:#090967;
+  --azul_pastel:#7079d3;
+  --azul_grisaceo:#b1b3c9;
 }
