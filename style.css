@@ -9,6 +9,7 @@
 @import url(botones/boton.css);
 @import url(tarjetas/tarjeta.css);
 @import url(listas/lista.css);
+@import url(barra_de_navegacion/barra-navegacion.css);
 
 *{
     margin: 0;

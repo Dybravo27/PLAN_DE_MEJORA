@@ -15,28 +15,28 @@
 /* ---------------------------------------------- */
 .grupo__botones--fondo_verde_oscuro-borde_verde_marino{
   background-color: var(--blanco);
-  border: solid 2px var(--color_verde_marino);
+  border: solid 2px var(--verde_marino);
 }
 .grupo__botones--fondo_verde_oscuro-borde_verde_marino:hover{
-  background-color: var(--color_verde_oscuro);
-  color: var(--color_verde_menta);
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
   transition: all 0.4s;
   font-size: 20px;
   border: solid 1px var(--blanco);
 }
 /* ---------------------------------------------- */
-.grupo__botones--texto_verde_menta-fondo_verde_oscuro-borde_blanco{
-  background-color: var(--color_verde_oscuro);
-  color: var(--color_verde_menta);
+.grupo__botones--fondo_verde_agua-texto_verde_oscuro{
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
   border: solid 2px var(--blanco);
   width: 100px;
   border-radius: 20px;
   transition: all 0.3s ;
 }
-.grupo__botones--fondo_verde_agua-texto_verde_oscuro-borde_verde_oscuro-sombra_negro:hover{
-  background-color: var(--color_verde_agua);
-  color: var(--color_verde_oscuro);
-  border: solid 2px var(--color_verde_oscuro);
+.grupo__botones--fondo_verde_agua-texto_verde_oscuro:hover{
+  background-color: var(--verde_agua);
+  color: var(--verde_oscuro);
+  border: solid 2px var(--verde_oscuro);
   font-size: 20px;
   box-shadow: 0 4px 8px var(--negro);
 }
@@ -45,14 +45,14 @@
   width: 500px;
   height: 70px;
   border-radius: 20px;
-  background-color:var(--color_verde_agua);
+  background-color:var(--verde_agua);
   padding: 5px;
-  border: solid 10px var(--color_verde_agua);
+  border: solid 10px var(--verde_agua);
   box-shadow: 0 0 15px var(--negro);
 }
 .grupo__botones--verde_oscuro-sombra_negra{
-  border: solid 2px var(--color_verde_oscuro);
-  color: var(--color_verde_agua);
+  border: solid 2px var(--verde_oscuro);
+  color: var(--verde_agua);
   width: 80px;
   border-radius: 10px;
   padding: 10px;
@@ -60,9 +60,9 @@
   cursor: pointer;
 }
 .grupo__botones--verde_oscuro-sombra_negra:active{
-  background-color: var(--color_verde_oscuro);
-  color: var(--color_verde_menta);
-  border: solid 2px var(--color_verde_menta);
+  background-color: var(--verde_oscuro);
+  color: var(--verde_menta);
+  border: solid 2px var(--verde_menta);
   box-shadow: 0 0 15px var(--negro);
 }
 /* ---------------------------------------------- */
@@ -71,25 +71,25 @@
   height: 80px;
   margin: 40px auto;
   border-radius: 20px;
-  background-color: var(--color_verde_menta);
+  background-color: var(--verde_menta);
   padding: 10px;
   box-shadow: 0 4px 8px var(--negro);
 }
 .grupo__botones--verde_marino-sombra_adicional{
-  border: solid 3px var(--color_verde_marino);
+  border: solid 3px var(--verde_marino);
   width: 80px;
-  color: var(--color_verde_agua);
+  color: var(--verde_agua);
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
 }
 .grupo__botones--verde_marino-sombra_adicional:hover{
   border: 0;
-  background: var(--color_verde_marino);
-  color: var(--color_verde_menta);
+  background: var(--verde_marino);
+  color: var(--verde_menta);
   border-radius: 10px;
   padding: 16px 30px;
   transition: 0.5s;
   cursor: pointer;
-  box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--color_verde_marino);
+  box-shadow: 0 0 0 4px var(--blanco), 0 0 0 8px var(--verde_marino);
 }

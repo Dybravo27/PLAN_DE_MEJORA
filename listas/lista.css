@@ -2,6 +2,11 @@
     margin: 30px auto;
     list-style-type: none;
 }
+.contenedores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .grupos__lista{
     display: block;
     width: 340px;
