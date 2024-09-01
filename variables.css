@@ -1,6 +1,4 @@
 :root{
-  --negro:#000;
-  --blanco:#fff;
   /* colores acordion */
   --naranja:#ff8f3f;
   --gris_claro:#f2f2f2;
@@ -21,4 +19,28 @@
   --azul_noche:#090967;
   --azul_pastel:#7079d3;
   --azul_grisaceo:#b1b3c9;
+  /* colores barra de navegacion */
+  --azul_opaco:#007BFF33;
+  --azul_brillante:#007BFF;
+  --azul_medianoche:#0056b3;
+  --gris_plata:#c0c0c0;
+  --negro:#000;
+  --blanco:#fff;
+  /* colores de alertas */
+  --gris_blanco_humo:#f5f5f5;
+  --gris_plateado:#e0e0e0;
+  --gris_medio:#666666;
+  --gris_oscuro:#333333;
+  --rosa_pastel:#f5c6c6;
+  --rosa_pastel_oscuro:#f1b0b7;
+  --rojo_intenso:#a71d2a;
+  --verde_pastel:#a4d8a7;
+  --verde_pastel_medio:#9fcb9f;
+  --verde_bosque:#004d00;
+  --azul_celeste_intenso:#99c2ff;
+  --azul_claro:#80b3ff;
+  --azul_marino_profundo:#002d72;
+  --amarillo_dorado_claro:#ffecb3;
+  --amarillo_brillante:#ffd54f;
+  --mostaza_oscuro:#6d4700;
 }
