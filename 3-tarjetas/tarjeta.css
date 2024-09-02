@@ -43,7 +43,7 @@
     font-family: "Archivo", sans-serif;
     font-size: 15px;
 }
-/* Modificaciones de la primera tarjeta */
+/* ------Primera modificacion------ */
 .tarjeta--fondo_azul_oscuro-sombra_celeste{
     background-color: var(--azul_oscuro);
     box-shadow: none;
@@ -66,7 +66,7 @@
     box-shadow: 0 4px 8px var(--negro);
     filter: drop-shadow(0 0 10px var(--azul_celeste));
 }
-/* Modificaciones de la segunda tarjeta */
+/* ------Segunda modificacion------ */
 .tarjeta__titulo--color_azul_oscuro{
     color: var(--azul_oscuro);
 }
@@ -87,7 +87,7 @@
     background-color: var(--amarillo_mostaza);
     color: var(--negro);
 }
-/* Modificaciones de la tercera tarjeta */
+/* ------Tercera modificacion------ */
 .tarjeta--fondo_azul_celeste{
     background-color: var(--azul_oscuro);
     box-shadow: 0 4px 8px var(--azul_marino);
@@ -122,7 +122,7 @@
 .tarjeta--fondo_azul_celeste:hover .tarjeta__imagen--sombra_azul_marino{
     filter: drop-shadow(0 0 10px var(--azul_marino));
 }
-/* Modificaciones de la cuarta tarjeta */
+/* ------Cuarta modificacion------ */
 .tarjeta--fondo_azul_marino-sombra_adicional{
     background-color: var(--azul_oscuro);
     box-shadow: 0 4px 8px var(--azul_marino);

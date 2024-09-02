@@ -24,7 +24,7 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-/* ---------------------------------------------- */
+/* ------Primera modificacion------ */
 .grupos__lista--fondo_azul_pastel:hover{
     background-color: var(--azul_pastel);
     color: var(--azul_noche);
@@ -35,7 +35,7 @@
     transition: all 0.3s;
     box-shadow: 0 4px 8px var(--negro);
 }
-/* ---------------------------------------------- */
+/* ------Segunda modificacion------ */
 .grupos__lista--fondo_azul_noche-sombra-azul_noche_azul_pastel{
     background-color: var(--azul_grisaceo);
     color: var(--azul_noche);
@@ -51,7 +51,7 @@
     width: 350px;
     height: 55px;
 }
-/* ---------------------------------------------- */
+/* ------Tercera modificacion------ */
 .grupos__lista--fondo_azul_noche-active_azul_grisaceo{    
     background-color: var(--azul_noche);
     color: var(--azul_grisaceo);
@@ -73,7 +73,7 @@
     text-align: center;
     transition: all 0.2s;
 }
-/* ---------------------------------------------- */
+/* ------Cuarta modificacion------ */
 .grupos__lista--fondo_degradado_azul_pastel-azul_noche-azul_grisaceo{
     background-color: var(--azul_noche);
     color: var(--azul_grisaceo);

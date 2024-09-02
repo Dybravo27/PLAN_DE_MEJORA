@@ -12,7 +12,7 @@
   font-family: "Inter", sans-serif;
   font-size: 15px;  
 }
-/* ---------------------------------------------- */
+/* ------Primera modificacion------ */
 .grupo__botones--fondo_verde_oscuro-borde_verde_marino{
   background-color: var(--blanco);
   border: solid 2px var(--verde_marino);
@@ -24,7 +24,7 @@
   font-size: 20px;
   border: solid 1px var(--blanco);
 }
-/* ---------------------------------------------- */
+/* ------Segunda modificacion------ */
 .grupo__botones--fondo_verde_agua-texto_verde_oscuro{
   background-color: var(--verde_oscuro);
   color: var(--verde_menta);
@@ -40,7 +40,7 @@
   font-size: 20px;
   box-shadow: 0 4px 8px var(--negro);
 }
-/* ---------------------------------------------- */
+/* ------Tercera modificacion------ */
 .grupo--fondo_verde_menta-sombra_negra{
   width: 500px;
   height: 70px;
@@ -65,7 +65,7 @@
   border: solid 2px var(--verde_menta);
   box-shadow: 0 0 15px var(--negro);
 }
-/* ---------------------------------------------- */
+/* ------Cuarta modificacion------ */
 .grupo--fondo_verde_claro{
   width: 600px;
   height: 80px;
