@@ -46,7 +46,7 @@
 /* ------Primera modificacion------ */
 .menu__item--fondo_verdoso_grisaceo:hover{
     background-color: var(--verdoso_grisaceo);
-    box-shadow: 0 4px 8px #0000004d;
+    box-shadow: 0 4px 8px var(--negro);
 }
 .menu__submenu-item--sombra_verde_aqua-verde_petroleo:hover{
     color: var(--blanco);

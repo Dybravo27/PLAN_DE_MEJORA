@@ -12,6 +12,7 @@
 @import url(5-barra_de_navegacion/barra-navegacion.css);
 @import url(6-alerta/alertas.css);
 @import url(7-menu_desplegable/menu_desplegable.css);
+@import url(8-insignia/insignia.css);
 
 *{
     margin: 0;
