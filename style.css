@@ -14,6 +14,7 @@
 @import url(7-menu_desplegable/menu_desplegable.css);
 @import url(8-insignia/insignia.css);
 @import url(9-paginacion/paginacion.css);
+@import url(10-tablas/tablas.css);
 
 *{
     margin: 0;
