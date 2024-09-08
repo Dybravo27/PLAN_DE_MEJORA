@@ -13,6 +13,7 @@
 @import url(6-alerta/alertas.css);
 @import url(7-menu_desplegable/menu_desplegable.css);
 @import url(8-insignia/insignia.css);
+@import url(9-paginacion/paginacion.css);
 
 *{
     margin: 0;
