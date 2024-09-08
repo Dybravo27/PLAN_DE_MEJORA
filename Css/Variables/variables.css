@@ -1,4 +1,6 @@
 :root{
+  /* color de fondo de todo el cuerpo */
+  --beige_arena:#c1aa94;
   /* colores acordion */
   --naranja:#ff8f3f;
   --gris_claro:#f2f2f2;
@@ -61,4 +63,12 @@
   --azul_oscuro_negro:#1A2130;
   --azul_acero:#5A72A0;
   --marfil:#FDFFE2;
+  /* colores boton ingreso y navegacion */
+  --beige_claro:#F0ECE5;
+  --gris_azulado:#31304D;
+  --gris_azulado_profundo:#161A30;
+  --gris_perla:#B6BBC4;
+  --gris_ceniza:#9E9E9E;
+  --negro_carbon:#121212;
+  --negro_antracita:#1E1E1E;
 }

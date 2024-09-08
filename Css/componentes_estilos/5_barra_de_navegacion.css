@@ -32,7 +32,7 @@
 }
 .encabezado__navegacion_enlace--sombra_blanca:hover{
     text-shadow: 1px 1px 4px var(--blanco),
-    2px 2px 6px #f0f0f0; 
+    2px 2px 6px var(--blanco); 
     font-size: 23px;
 }
 
