@@ -1,4 +1,4 @@
-.contenedor{
+.acordion{
     width:400px;
     margin: 20px auto;
     padding: 20px;
@@ -6,7 +6,7 @@
     border-radius: 5px;
 }
 
-.acordion{
+.acordion__contenedor{
     width: 350px;
     padding: 10px;
     font-family: "Roboto", sans-serif;
@@ -32,7 +32,7 @@
     background-color: var(--amarillo_palido);
 }
 /* ------Primera modificacion------ */
-.contenedor--fondo_amarillo_palido-sombra_negra:hover{
+.acordion--fondo_amarillo_palido-sombra_negra:hover{
     background-color: var(--amarillo_palido);
     box-shadow: 0px 0px 10px 0px var(--negro);
     transition: all 0.9s;
@@ -80,13 +80,13 @@
     font-weight: bold;
 }
 /* ------Cuarta modificacion------ */
-.contenedor--fondo_rosa_palido-borde_redondeado:hover{
+.acordion--fondo_rosa_palido-borde_redondeado:hover{
     background-color: var(--rosa_palido);
     transition: all 0.5s;
     font-size: 20px;
     border-radius: 50px;
 }
-.acordion--fondo_amarillo_palido{
+.acordion__contenedor--fondo_amarillo_palido{
     background-color: var(--amarillo_palido);
 }
 .acordion__contenido--fondo_gris_claro{
