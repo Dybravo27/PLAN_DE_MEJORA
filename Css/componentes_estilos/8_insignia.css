@@ -42,18 +42,18 @@
     transition: all 0.5s ease-in-out;
 }
 /* ------Segunda modificacion------ */
-.insignia__icono--chat_hover_aumento_tamaño{
+.insignia__icono--chat_hover_agrandado_tamaño{
     transition: all 0.5s ease-in-out;
 }
-.insignia__etiqueta--hover-aumento_tamaño{
+.insignia__etiqueta--hover-agrandado_tamaño{
     transition: all 0.5s ease-in-out;
 }
-.insignia__contenedor--aumento-tamaño:hover .insignia__icono--chat_hover_aumento_tamaño{
+.insignia--agrandado-tamaño:hover .insignia__icono--chat_hover_agrandado_tamaño{
     width: 75px;
     height: 75px;
     font-size: 45px;
 }
-.insignia__contenedor--aumento-tamaño:hover .insignia__etiqueta--hover-aumento_tamaño{
+.insignia--agrandado-tamaño:hover .insignia__etiqueta--hover-agrandado_tamaño{
     width: 30px;
     height: 30px;
     top: -10px;
