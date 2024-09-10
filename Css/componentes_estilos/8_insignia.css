@@ -1,9 +1,4 @@
 .insignia{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.insignia__contenedor{
     position: relative;
     display: flex;
     justify-content: center;

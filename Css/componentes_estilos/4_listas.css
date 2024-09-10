@@ -15,6 +15,7 @@
     margin: 0 auto;
     border: solid 2px var(--negro);
     cursor: pointer;
+    font-family: "Recursive", sans-serif;
 }
 .grupos__lista:first-of-type{
     border-top-left-radius: 10px;
@@ -29,7 +30,6 @@
     background-color: var(--azul_pastel);
     color: var(--azul_noche);
     font-size: 15px;
-    font-family: "Recursive", sans-serif;
     border-radius: 8px;
     margin: 5px auto;
     transition: all 0.3s;
@@ -40,7 +40,6 @@
     background-color: var(--azul_grisaceo);
     color: var(--azul_noche);
     font-size: 18px;
-    font-family: "Recursive", sans-serif;
     text-align: center;
 }
 .grupos__lista--fondo_azul_noche-sombra-azul_noche_azul_pastel:hover{
@@ -56,7 +55,6 @@
     background-color: var(--azul_noche);
     color: var(--azul_grisaceo);
     font-size: 18px;
-    font-family: "Recursive", sans-serif;
 }
 .grupos__lista--fondo_azul_noche-active_azul_grisaceo:hover{
     background-color: var(--azul_pastel);
@@ -78,7 +76,6 @@
     background-color: var(--azul_noche);
     color: var(--azul_grisaceo);
     font-size: 18px;
-    font-family: "Recursive", sans-serif;
     text-align: center;
 }
 .grupos__lista--fondo_degradado_azul_pastel-azul_noche-azul_grisaceo:hover{
